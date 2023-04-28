@@ -1,0 +1,3 @@
+com/example/movie/MovieApplication.class
+com/example/movie/service/MovieJpaService.class
+com/example/movie/repository/MovieRepository.class

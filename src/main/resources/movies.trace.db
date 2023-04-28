@@ -1,0 +1,18 @@
+2023-04-28 06:47:57 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "MOVIELIST" not found (this database is empty); SQL statement:
+select * from movielist [42104-214]
+2023-04-28 06:59:02 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]table(movieName,leadActor) values('Avengers: Endgame','Robert Downey Jr.')"; expected "identifier"; SQL statement:
+insert into table(movieName,leadActor) values('Avengers: Endgame','Robert Downey Jr.') [42001-214]
+2023-04-28 06:59:02 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]table(movieName,leadActor) values('Avatar','Sam Worthington')"; expected "identifier"; SQL statement:
+insert into table(movieName,leadActor) values('Avatar','Sam Worthington') [42001-214]
+2023-04-28 06:59:02 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]table(movieName,leadActor) values('Titanic','Leonardo DiCaprio')"; expected "identifier"; SQL statement:
+insert into table(movieName,leadActor) values('Titanic','Leonardo DiCaprio') [42001-214]
+2023-04-28 06:59:02 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]table(movieName,leadActor) values('Star Wars: The Force Awakens','Daisy Ridley')"; expected "identifier"; SQL statement:
+insert into table(movieName,leadActor) values('Star Wars: The Force Awakens','Daisy Ridley') [42001-214]
+2023-04-28 06:59:02 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]table(movieName,leadActor) values('Jurassic World','Chris Pratt')"; expected "identifier"; SQL statement:
+insert into table(movieName,leadActor) values('Jurassic World','Chris Pratt') [42001-214]
